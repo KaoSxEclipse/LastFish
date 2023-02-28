@@ -5,7 +5,6 @@ from discord.ext import commands
 from discord.ext.commands import *
 from typing import Optional, Literal
 import json
-from discord import app_commands
 import traceback
 import random
 intents = discord.Intents.all()
