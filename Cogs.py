@@ -247,6 +247,3 @@ class syncCog(commands.Cog):
         print("Synced.")
 
 
-async def setup(bot):
-    await bot.add_cog(sync(bot))
-    await bot.add_cog(Rulebook(bot))
